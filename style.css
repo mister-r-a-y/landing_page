@@ -1,10 +1,15 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 0;
+    margin:0;
+    text-align: center;
+    font-family: 'Roboto', arial;
 }
 
 .container_1 {
-    background-color: darkblue;
+    background-color:#1f2937;
     color: white;
     display: flex;
     flex-direction: column;
@@ -14,49 +19,58 @@ body {
 .header_1 {
     display:flex;
     justify-content: space-between;
+    align-items: center;
+    color: #F9FAF8;
+    background-color: #1f2937;
+    padding: 20px 0px 20px 100px;
 }
 
 .header_logo {
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 900;
     padding: 10px;
+    display: flex;
 }
 
 ul {
     list-style-type: none;
     display: flex;
-    font-size: 15px;
-    font-weight: 100;
-    gap: 5px;
-    padding: 10px;
+    font-size: 18px;
+    padding: 0px 100px 0px 0px;
+    margin-left: auto;
+    gap: 15px;
+    text-decoration: underline;
 }
 
 .container_1_1 {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
 }
 
 .text_1 {
     display: flex;
+    flex-basis: 400px;
     flex-direction: column;
-    flex: 1;
-    padding: 15px;
-    margin:40px;
+    text-align: left;
+    margin-right: 50px ;
 }
 
 .large_text_1 {
-    font-size: 40px;
-    font-weight: 900;
+    font-size: 48px;
+    font-weight: 800;
     padding: 10px;
 }
 
 .small_text_1 {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 100;
     padding: 10px;
 }
 
 .button_1 {
-    background-color: blue;
+    background-color: #3882f6;
     color: white;
     height: 40px;
     width: 80px;
@@ -69,7 +83,6 @@ ul {
     justify-content: center;
     align-items: center;
     padding:15px;
-    margin:40px;
 }
 .images_1 img {
     height:150px;
@@ -83,8 +96,9 @@ ul {
 
 .header_2 {
     display: flex;
-    font-size: 25px;
-    font-weight: 900;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
     justify-content: center;
     align-items: center;
     padding: 15px;
